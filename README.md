@@ -10,6 +10,7 @@
 ![image](https://user-images.githubusercontent.com/63969660/121768955-f2def700-cb9b-11eb-8bd3-572c9ddf4e6e.png)
 ![image](https://user-images.githubusercontent.com/63969660/121768957-f4102400-cb9b-11eb-9f22-89e12e0927a7.png)
 
+![image](https://user-images.githubusercontent.com/63969660/121769116-c7104100-cb9c-11eb-9576-7ca47a4bbee8.png)
 
 ![KakaoTalk_20210602_153915060_01](https://user-images.githubusercontent.com/63969660/121769092-a21bce00-cb9c-11eb-8e5a-9114c1616664.jpg)
 
