@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeItem"
+        android:icon="@drawable/home"
+        android:title="홈" />
+    <item
+        android:id="@+id/CollectionItem"
+        android:icon="@drawable/agenda"
+        android:title="별자리북" />
+
+    <item
+        android:id="@+id/myInfoItem"
+        android:icon="@drawable/starmyinfo"
+        android:title="내정보" />
+    <item
+        android:id="@+id/userListItem"
+        android:icon="@drawable/team"
+        android:title="유저목록" />
+</menu>

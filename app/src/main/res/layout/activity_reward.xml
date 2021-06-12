@@ -1,0 +1,120 @@
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="미리보기"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <com.panxw.android.imageindicator.ImageIndicatorView
+            android:id="@+id/guide_indicate_view"
+            android:layout_width="250dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center">
+
+        </com.panxw.android.imageindicator.ImageIndicatorView>
+
+        <Spinner
+
+            android:id="@+id/spinner_field"
+
+            android:layout_width="299dp"
+
+            android:layout_height="60dp"
+
+            android:layout_gravity="center"
+
+            android:layout_margin="30dp"
+            android:background="@android:drawable/spinner_background"
+            android:spinnerMode="dropdown"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="89dp"
+                    android:layout_height="42dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="-3dp"
+                    android:layout_marginTop="36dp"
+                    android:gravity="center"
+                    android:text=" 주소 : "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/addrName"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="-4dp"
+                    android:layout_marginEnd="219dp"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="이름"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="91dp"
+                    android:layout_height="37dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:text=" 받는분 : "
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/addrEdit"
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginEnd="4dp"
+                    android:ems="10"
+                    android:hint="주소입력"
+                    android:inputType="textPersonName" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/orderbutton"
+            android:layout_width="99dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+
+            android:foregroundGravity="center_vertical"
+            android:gravity="center"
+            android:backgroundTint="@color/black"
+            android:text="주문" />
+
+    </LinearLayout>
+

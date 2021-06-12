@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+    <item
+        android:id="@+id/actionReminder"
+        android:icon="@drawable/note"
+        android:iconTint="@color/white"
+        android:title="Reminder"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/actionConstellation"
+        android:icon="@drawable/constellationbook"
+        android:title="Constellation"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actionSetting"
+        android:icon="@drawable/settings"
+        android:iconTint="@color/white"
+        android:title="설정"
+        app:showAsAction="always"/>
+
+
+</menu>

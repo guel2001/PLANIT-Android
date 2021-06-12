@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="80dp"
+            android:text="나의 우주 공개 여부"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/open_chk"
+            android:layout_width="77dp"
+            android:layout_height="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="77dp"
+            android:layout_marginEnd="109dp"
+            android:text="공개" />
+
+        <CheckBox
+            android:id="@+id/close_chk"
+            android:layout_width="77dp"
+            android:layout_height="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="79dp"
+            android:layout_marginEnd="30dp"
+            android:text="비공개" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="140dp"
+            android:text="락스크린 허용여부"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/on_chk"
+            android:layout_width="77dp"
+            android:layout_height="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="134dp"
+            android:layout_marginEnd="114dp"
+            android:layout_toEndOf="@+id/textView10"
+            android:text="허용" />
+
+        <CheckBox
+            android:id="@+id/off_chk"
+            android:layout_width="114dp"
+            android:layout_height="29dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="121dp"
+            android:layout_marginTop="137dp"
+            android:layout_marginEnd="3dp"
+            android:layout_toEndOf="@+id/textView10"
+            android:text="비허용" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

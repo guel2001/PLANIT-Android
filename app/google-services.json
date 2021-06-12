@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1051210712518",
+    "project_id": "dowajyo",
+    "storage_bucket": "dowajyo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051210712518:android:efc20c9f2167d7212b9ec7",
+        "android_client_info": {
+          "package_name": "com.example.projectgit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051210712518-f2hi0iakof4mcrddsjl061jrqknt1u57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0WzGGoYWxBQ0AhoIjyXVDQh6i66D2k0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051210712518-f2hi0iakof4mcrddsjl061jrqknt1u57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

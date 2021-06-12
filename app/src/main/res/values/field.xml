@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinnerArray">
+
+        <item> 카드를 선택하세요. </item>
+
+        <item> 1 (Blue) </item>
+
+        <item> 2 (Purple) </item>
+
+        <item> 3 (Green) </item>
+
+
+    </string-array>
+
+</resources>

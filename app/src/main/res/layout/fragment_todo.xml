@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    >
+    <!-- 깔끔하게 보여주기 위해 scaleType과 marginTop 속성을 줍니다. -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/fragment_const"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_todo">
+
+        <TextView
+            android:id="@+id/daytv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="6dp"
+            android:scrollbars="vertical"
+            android:text="무슨날"
+            android:textColor="#ffffffff"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/todotv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="30dp"
+            android:scrollbars="vertical"
+            android:text="안녕하세요"
+            android:textColor="#ffffffff"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

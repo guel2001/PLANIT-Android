@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectgit">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_constellation"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_constellation_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectGIT"
+        >
+
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="false" />
+
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <activity
+            android:name=".Activity.Splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <receiver android:name=".Activity.ScreenReceiver"></receiver>
+        <service android:name=".Activity.ScreenService"></service>
+        <activity android:name=".Activity.LockScreenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".main.MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Login.LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Login.SignUpActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Login.PasswordResetActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Login.MemberinitActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CameraActivity.CameraActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.GalleryActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.TaskActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.MyProfileModify" />
+        <activity android:name=".Constellation.SetConstellation"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.ReminderActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.SpaceActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.OtherSpaceActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.RewardActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Activity.SettingActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

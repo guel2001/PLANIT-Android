@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/HomeBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_screen"
+
+    tools:context=".main.MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="fill">
+
+        <com.example.projectgit.view.ClickableViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="0dp"
+
+            app:layout_constraintBottom_toTopOf="@+id/subview2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/subview1">
+
+        </com.example.projectgit.view.ClickableViewPager>
+
+        <View
+            android:id="@+id/subview1"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/subview2"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="300dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/subview1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/changeBg"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="@color/black"
+                android:text="▷"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/bgmView"
+                android:layout_width="27dp"
+                android:layout_height="35dp"
+                android:layout_margin="0dp"
+                app:srcCompat="@drawable/bgm2_icon" />
+
+            <Button
+                android:id="@+id/starViewButton"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="295dp"
+                android:backgroundTint="@color/black"
+                android:text="별"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!--뷰페이저생성끝-->
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="414dp"
+        android:layout_height="730dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/star1View"
+            android:layout_width="66dp"
+            android:layout_height="74dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="250dp"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:visibility="gone"
+            app:srcCompat="@drawable/star" />
+
+        <RelativeLayout
+            android:layout_width="412dp"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/cons_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="364dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
