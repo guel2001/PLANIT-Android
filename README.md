@@ -1,6 +1,5 @@
 ![KakaoTalk_20210531_000658567](https://user-images.githubusercontent.com/63969660/121769082-90d2c180-cb9c-11eb-9c43-414775e7e1fa.jpg)
 # PLANIT-Android
-![Uploading image.png…]()
 
 ![image](https://user-images.githubusercontent.com/63969660/121768931-e0fd5400-cb9b-11eb-8842-76667a157f0d.png)
 ![image](https://user-images.githubusercontent.com/63969660/121768936-e490db00-cb9b-11eb-81f5-b5e2bf7a83da.png)
@@ -10,7 +9,10 @@
 ![image](https://user-images.githubusercontent.com/63969660/121768953-f1adca00-cb9b-11eb-8c19-3e289919bee5.png)
 ![image](https://user-images.githubusercontent.com/63969660/121768955-f2def700-cb9b-11eb-8bd3-572c9ddf4e6e.png)
 ![image](https://user-images.githubusercontent.com/63969660/121768957-f4102400-cb9b-11eb-9f22-89e12e0927a7.png)
-![Uploading KakaoTalk_20210602_153915060_01.jpg…]()
+
+
+![KakaoTalk_20210602_153915060_01](https://user-images.githubusercontent.com/63969660/121769092-a21bce00-cb9c-11eb-8e5a-9114c1616664.jpg)
+
 
 1. 특징
  Plan It은 기존 ToDoList 애플리케이션에 엔터테인먼트 요소(컬렉션)가 추가된 애플리케이션이다. 평소에 계획을 세워도 잘 실천을 하지 못하는 사람들을 목적으로 제작된 애플리케이션이다. Linked In의 설문조사에 따르면 ToDoList를 작성하더라도 모두 완수하는 사람은 약11%에 불과하다고 한다. 기존 ToDoList 애플리케이션의 기능만으로는 동기부여 요소가 부족하다고 느꼈다. 
